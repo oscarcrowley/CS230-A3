@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+public class EndGame{
+    public static void main(String[] args){
+
+
+        int n = JOptionPane.showConfirmDialog(
+            null,
+            "Would you like to play again?",
+            "Test test",
+            JOptionPane.YES_NO_OPTION);
+
+        if(true){
+            JOptionPane.showMessageDialog(null, "sample");
+            //get InitialGUI
+        }
+        else {
+            JOptionPane.showMessageDialog(null, "sample");
+            //terminate Game
+        }
+
+        System.exit(0);
+    }
+}
